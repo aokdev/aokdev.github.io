@@ -8,14 +8,14 @@
 ---------------------------------------------------------------------------*/
 /*背景画像とアプリ画面*/
 #app header {
-	background: url(../images_app/photonote_header_image.png) no-repeat right 10% bottom/auto 90%, url(../images_app/photonote_header_bg.jpg);
+	background: url(../images_app/photonote_header_image.png) no-repeat right 100px bottom/auto 90%, url(../images_app/photonote_header_bg.jpg);
 	height: 500px;	/*ブロックの高さ*/
 }
 /*イントロダクション全体*/
 header #intro {
 	color: #ffffff;
-	width: 50%;
-	padding: 40px 200px;
+	width: auto;
+	padding: 40px 450px 40px 200px;
 }
 /*ロゴ画像*/
 header #app_logo img {
@@ -29,11 +29,78 @@ header h1 {
 }
 /*アプリ副題*/
 header h2 {
+	margin-top: -15px;
 	font-size: 150%;
+}
+/*アプリ説明*/
+header #app_detail {
+	margin-top: 20px;
 }
 /*Google Play*/
 header #goolge_play img {
 	margin: 50px -15px;
-	width:30%;
-	height:30%
+	width:230px;
+}
+
+
+
+
+
+
+
+/*画面幅1000px以下の設定
+------------------------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width:1000px){
+
+/*ヘッダー
+---------------------------------------------------------------------------*/
+/*イントロダクション全体*/
+header #intro {
+	padding: 40px 380px 40px 120px;
+}
+/*Google Play*/
+header #goolge_play img {
+	margin: 30px -15px;
+}
+
+}
+
+
+
+/*画面幅800px以下の設定
+------------------------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width:800px){
+
+/*ヘッダー
+---------------------------------------------------------------------------*/
+/*背景画像とアプリ画面*/
+#app header {
+	background: url(../images_app/photonote_header_image.png) no-repeat center bottom/auto 40%, url(../images_app/photonote_header_bg.jpg) no-repeat left/auto 800px;
+	height: 800px;	/*ブロックの高さ*/
+}
+/*イントロダクション全体*/
+header #intro {
+	padding: 40px 110px;
+}
+/*アプリ名*/
+header h1 {
+	margin-top: -10px;
+	margin-left: 0px;
+	font-size: 200%;
+}
+/*アプリ副題*/
+header h2 {
+	margin-top: -10px;
+	font-size: 140%;
+}
+/*アプリ説明*/
+header #app_detail {
+	margin-top: 10px;
+}
+/*Google Play*/
+header #goolge_play img {
+	display: block;
+	margin: 20px auto;
+}
+
 }
