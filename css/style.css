@@ -248,7 +248,7 @@ ul.icon img:hover {
 	opacity: 0.8;		/*マウスオン時に透明度を80%にする。*/
 }
 
-/*トップページ内「更新情報・お知らせ」ブロック
+/*トップページ内「News・お知らせ」ブロック
 ---------------------------------------------------------------------------*/
 /*見出しを含まないお知らせブロック*/
 #new dl {
@@ -263,6 +263,10 @@ ul.icon img:hover {
 /*記事設定*/
 #new dd {
 	padding-left: 9em;
+}
+/*過去News*/
+#new summary {
+	padding: 20px 3% 5px;		/*上、左右、下へのブロック内の余白*/
 }
 
 /*ta1設定
@@ -370,7 +374,6 @@ ol {
 .ws {width: 50%;}
 .w48p {width: 48%;}
 .c {text-align: center !important;}
-.r {text-align: right !important;}
 .l {text-align: left !important;}
 .fl {float: left;}
 .fr {float: right;}
@@ -386,7 +389,7 @@ ol {
 /*コンテンツ
 ---------------------------------------------------------------------------*/
 #contents {
-	padding: 50px 0px;	/*上下、左右へのコンテンツ内の余白*/
+	padding: 50px 10px;	/*上下、左右へのコンテンツ内の余白*/
 
 }
 
