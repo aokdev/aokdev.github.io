@@ -59,7 +59,7 @@ header #goolge_play img {
 	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
 	border-radius: 2px;
 	overflow: hidden;
-	background: #135EAA;
+	background: #57A8D7;
 }
 .card_group .card li:not(:last-child){
 	margin-right: 30px;
