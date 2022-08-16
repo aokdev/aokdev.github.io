@@ -45,15 +45,15 @@ header #goolge_play img {
 
 /*contents
 ---------------------------------------------------------------------------*/
-.card_group{
+.card_group {
 	padding: 70px 0 70px 0;
 }
-.card_group .card{
+.card_group .card {
 	display: flex;
 	width: 900px;
 	margin: 0 auto;
 }
-.card_group .card li{
+.card_group .card li {
 	padding-bottom: 20px;
 	flex-grow: 1;
 	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
@@ -61,18 +61,18 @@ header #goolge_play img {
 	overflow: hidden;
 	background: #57A8D7;
 }
-.card_group .card li:not(:last-child){
+.card_group .card li:not(:last-child) {
 	margin-right: 30px;
 }
-.card_group .pict{
+.card_group .pict {
 	width: 100%;
 }
-.card_group .card h3{
+.card_group .card h3 {
 	margin: 18px 24px 14px 24px;
 	font-size: 20px;
 	color: #fff;
 }
-.card_group .note{
+.card_group .note {
 	margin: 7px 24px;
 	font-size: 14px;
 	color: #fff;
@@ -83,7 +83,7 @@ header #goolge_play img {
 
 /*画面幅1000px以下の設定
 ------------------------------------------------------------------------------------------------------------------------------------------------------*/
-@media screen and (max-width:1000px){
+@media screen and (max-width:1000px) {
 
 /*ヘッダー
 ---------------------------------------------------------------------------*/
@@ -96,13 +96,35 @@ header #goolge_play img {
 	margin: 30px -15px;
 }
 
+
+/*contents
+---------------------------------------------------------------------------*/
+.card_group {
+	padding: 70px 0 70px 0;
 }
+.card_group .card {
+	display: block;
+	width: 700px;
+}
+.card_group .card li {
+	padding-bottom: 0px;
+	margin: 20px auto 0;
+}
+.card_group .card li:not(:last-child) {
+	margin-right: 0px;
+}
+.card_group .pict {
+	float: left;
+	width: 30%;
+	margin-right: 20px;
+}
+
 
 
 
 /*画面幅800px以下の設定
 ------------------------------------------------------------------------------------------------------------------------------------------------------*/
-@media screen and (max-width:800px){
+@media screen and (max-width:800px) {
 
 /*ヘッダー
 ---------------------------------------------------------------------------*/
@@ -134,6 +156,36 @@ header #app_detail {
 header #goolge_play img {
 	display: block;
 	margin: 20px auto;
+}
+
+
+/*contents
+---------------------------------------------------------------------------*/
+.card_group {
+	padding: 20px 0 50px 0
+}
+.card_group .card {
+	width: 400px;
+}
+.card_group .card li {
+	padding-bottom: 20px;
+}
+.card_group .card li:not(:last-child) {
+	margin: 20px auto 0;
+}
+.card_group .pict {
+	width: 100%;
+	margin-right: 0px;
+	margin-bottom: 20px;
+}
+.card_group .card h3 {
+	margin: 20px 16px 7px 16px;
+	font-size: 17px;
+	line-height: 1.4;
+}
+.card_group .note {
+	margin: 4px 16px;
+	font-size: 13px;
 }
 
 }
