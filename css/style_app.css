@@ -1,0 +1,191 @@
+@charset "utf-8";
+
+
+/*全端末（PC・タブレット・スマホ）共通設定
+------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*ヘッダー
+---------------------------------------------------------------------------*/
+/*背景画像とアプリ画面*/
+#app header {
+	background: url(../images_app/photonote_header_image.png) no-repeat right 100px bottom/auto 90%, url(../images_app/photonote_header_bg.jpg);
+	height: 500px;	/*ブロックの高さ*/
+}
+/*イントロダクション全体*/
+header #intro {
+	color: #ffffff;
+	width: auto;
+	padding: 40px 450px 40px 200px;
+}
+/*ロゴ画像*/
+header #app_logo img {
+	width: 100px !important;	/*幅*/
+}
+/*アプリ名*/
+header h1 {
+	margin-top: -15px;
+	margin-left: -5px;
+	font-size: 300%;
+}
+/*アプリ副題*/
+header h2 {
+	margin-top: -15px;
+	font-size: 150%;
+}
+/*アプリ説明*/
+header #app_detail {
+	margin-top: 20px;
+}
+/*Google Play*/
+header #goolge_play img {
+	margin: 50px -15px;
+	width:230px;
+}
+
+
+/*contents
+---------------------------------------------------------------------------*/
+.card_group {
+	padding: 70px 0 70px 0;
+}
+.card_group .card {
+	display: flex;
+	width: 900px;
+	margin: 0 auto;
+}
+.card_group .card li {
+	padding-bottom: 20px;
+	flex-grow: 1;
+	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+	border-radius: 2px;
+	overflow: hidden;
+	background: #57A8D7;
+}
+.card_group .card li:not(:last-child) {
+	margin-right: 30px;
+}
+.card_group .pict {
+	width: 100%;
+}
+.card_group .card h3 {
+	margin: 18px 24px 14px 24px;
+	font-size: 20px;
+	color: #fff;
+}
+.card_group .note {
+	margin: 7px 24px;
+	font-size: 14px;
+	color: #fff;
+	line-height: 1.4;
+}
+
+
+
+/*画面幅1000px以下の設定
+------------------------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width:1000px) {
+
+/*ヘッダー
+---------------------------------------------------------------------------*/
+/*イントロダクション全体*/
+header #intro {
+	padding: 40px 380px 40px 120px;
+}
+/*Google Play*/
+header #goolge_play img {
+	margin: 30px -15px;
+}
+
+
+/*contents
+---------------------------------------------------------------------------*/
+.card_group {
+	padding: 70px 0 70px 0;
+}
+.card_group .card {
+	display: block;
+	width: 700px;
+}
+.card_group .card li {
+	padding-bottom: 0px;
+	margin: 20px auto 0;
+}
+.card_group .card li:not(:last-child) {
+	margin-right: 0px;
+}
+.card_group .pict {
+	float: left;
+	width: 30%;
+	margin-right: 20px;
+}
+
+
+
+
+/*画面幅800px以下の設定
+------------------------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width:800px) {
+
+/*ヘッダー
+---------------------------------------------------------------------------*/
+/*背景画像とアプリ画面*/
+#app header {
+	background: url(../images_app/photonote_header_image.png) no-repeat center bottom/auto 40%, url(../images_app/photonote_header_bg.jpg) no-repeat left/auto 800px;
+	height: 800px;	/*ブロックの高さ*/
+}
+/*イントロダクション全体*/
+header #intro {
+	padding: 40px 110px;
+}
+/*アプリ名*/
+header h1 {
+	margin-top: -10px;
+	margin-left: 0px;
+	font-size: 200%;
+}
+/*アプリ副題*/
+header h2 {
+	margin-top: -10px;
+	font-size: 140%;
+}
+/*アプリ説明*/
+header #app_detail {
+	margin-top: 10px;
+}
+/*Google Play*/
+header #goolge_play img {
+	display: block;
+	margin: 20px auto;
+}
+
+
+/*contents
+---------------------------------------------------------------------------*/
+.card_group {
+	padding: 20px 0 50px 0
+}
+.card_group .card {
+	width: 400px;
+}
+.card_group .card li {
+	padding-bottom: 20px;
+}
+.card_group .card li:not(:last-child) {
+	margin: 20px auto 0;
+}
+.card_group .pict {
+	width: 100%;
+	margin-right: 0px;
+	margin-bottom: 20px;
+}
+.card_group .card h3 {
+	margin: 20px 16px 7px 16px;
+	font-size: 17px;
+	line-height: 1.4;
+}
+.card_group .note {
+	margin: 4px 16px;
+	font-size: 13px;
+}
+
+}

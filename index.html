@@ -7,8 +7,8 @@
     <title>AOK Lab. - Android用アプリ製作</title>
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="「AOK Lab」が提供するAndroid用アプリ公式ページです。『フォトめも』、『あいうメモ』">
-    <meta name="keywords" content="AOK,Android,アンドロイド,アプリ,フォトめも,あいうメモ,メモ帳,ノート">
+    <meta name="description" content="「AOK Lab」が提供するAndroid用アプリ公式ページです。『フォトめも』、『あいうメモ』、『ふぉじぇっと』">
+    <meta name="keywords" content="AOK,Android,アンドロイド,アプリ,フォトめも,あいうメモ,メモ帳,ノート,ふぉじぇっと,ウィジェット,写真,フォトフレーム">
     
     <link rel="stylesheet" href="css/style.css">
     
@@ -46,8 +46,8 @@
       <nav id="menubar">
         <ul>
           <li><a href="index.html">Home</a></li>
+          <!--<li><a href="photonote.html">フォトめも</a></li>-->
           <li><a href="privacy.html">Privacy Policy</a></li>
-          <!--<li><a href="gallery.html">Gallery</a></li>-->
         </ul>
       </nav>
 
@@ -59,57 +59,75 @@
 
           <div class="app">
             <div class="list">
-              <figure><img src="images_app/1.png" alt="フォトめも"></figure>
+              <figure>
+                <!--<a href="photonote.html"><img src="images_app/1.png" alt="フォトめも"></a>-->
+                <img src="images_app/1.png" alt="フォトめも">
+              </figure>
             </div>
 
             <div class="list">
-              <figure><img src="images_app/2.png" alt="あいうメモ"></figure>
+              <figure>
+                <img src="images_app/2.png" alt="あいうメモ">
+              </figure>
+            </div>
+
+            <div class="list">
+              <figure>
+                <img src="images_app/3.png" alt="ふぉじぇっと">
+              </figure>
             </div>
           </div>
         </section>
         <!--/Application-->
 
-        <!--News-->
+        <!--News--><!--
         <section id="new">
           <h2>News<br><span>お知らせ</span></h2>
 
           <dl>
+            <dt>2022/05/15</dt>
+            <dd>【あいうメモ】Ver.0.2.0 公開<span class="newicon">NEW</span></dd>
+
             <dt>2022/04/12</dt>
             <dd>【フォトめも】Ver.1.2.0 公開<span class="newicon">NEW</span></dd>
-
-            <dt>2022/04/11</dt>
-            <dd>【あいうメモ】Ver.0.1.0 公開<span class="newicon">NEW</span></dd>
-
-            <dt>2022/04/03</dt>
-            <dd>【フォトめも】Ver.1.1.0 公開</dd>
-          
-            <dt>2022/03/23</dt>
-            <dd>【フォトめも】Ver.1.0.1 公開</dd>
-
-            <dt>2022/03/21</dt>
-            <dd>【フォトめも】Ver.1.0.0 公開</dd>
-
-            <dt>2022/03/17</dt>
-            <dd>【フォトめも】Ver.0.5.0 公開</dd>
-
-            <dt>2022/03/11</dt>
-            <dd>【フォトめも】Ver.0.4.1 公開</dd>
-
-            <dt>2022/03/06</dt>
-            <dd>【フォトめも】Ver.0.4.0 公開</dd>
-
-            <dt>2022/01/16</dt>
-            <dd>【フォトめも】Ver.0.3.0 公開</dd>
-
-            <dt>2022/01/02</dt>
-            <dd>【フォトめも】Ver.0.2.0 公開</dd>
-
-            <dt>2021/12/20</dt>
-            <dd>【フォトめも】Ver.0.1.0 公開</dd>
           </dl>
 
-          <!--<p class="r">&raquo;&nbsp;<a href="#">過去ログ</a></p>-->
-        </section>
+          <details>
+            <summary>過去 News</summary>
+            <dl>
+              <dt>2022/04/11</dt>
+              <dd>【あいうメモ】Ver.0.1.0 公開</dd>
+
+              <dt>2022/04/03</dt>
+              <dd>【フォトめも】Ver.1.1.0 公開</dd>
+
+              <dt>2022/03/23</dt>
+              <dd>【フォトめも】Ver.1.0.1 公開</dd>
+
+              <dt>2022/03/21</dt>
+              <dd>【フォトめも】Ver.1.0.0 公開</dd>
+
+              <dt>2022/03/17</dt>
+              <dd>【フォトめも】Ver.0.5.0 公開</dd>
+
+              <dt>2022/03/11</dt>
+              <dd>【フォトめも】Ver.0.4.1 公開</dd>
+
+              <dt>2022/03/06</dt>
+              <dd>【フォトめも】Ver.0.4.0 公開</dd>
+
+              <dt>2022/01/16</dt>
+              <dd>【フォトめも】Ver.0.3.0 公開</dd>
+
+              <dt>2022/01/02</dt>
+              <dd>【フォトめも】Ver.0.2.0 公開</dd>
+
+              <dt>2021/12/20</dt>
+              <dd>【フォトめも】Ver.0.1.0 公開</dd>
+            </dl>
+          </details>
+
+        </section>-->
         <!--/News-->
 
       </div>
@@ -121,7 +139,7 @@
           <li><a href="#"><img src="images/icon_facebook.png" alt="Facebook"></a></li>
           <li><a href="#"><img src="images/icon_twitter.png" alt="Twitter"></a></li>
           <li><a href="#"><img src="images/icon_instagram.png" alt="Instagram"></a></li>
-          <li><a href="#"><img src="images/icon_youtube.png" alt="TouTube"></a></li>
+          <li><a href="#"><img src="images/icon_youtube.png" alt="YouTube"></a></li>
         </ul>
         -->
 
@@ -139,9 +157,6 @@
 
     <!--メニューの開閉処理-->
     <script>open_close("menubar_hdr", "menubar");</script>
-
-    <!--lightbox用jsファイルの読み込み-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox-plus-jquery.min.js"></script>
 
   </body>
 </html>
